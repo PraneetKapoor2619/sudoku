@@ -27,4 +27,4 @@ The solver uses recursion to solve a puzzle. This works fine as long as the numb
   
 ## Computerphile solution  
   
-This folder contains a single Python3 script, `sudoku.py` which solves the grid stored in a text file. Two functions, namely `possible(y, x, n)` and `solve()` in it have been directly copied from [the video on the subject by Computerphile](https://youtu.be/G_UYXzGuqvM). Unlike the video, which made use of numpy, I have used my own functions to build, and print the grid beautifully.
+This folder contains a single Python3 script, `sudoku.py` which either checks or solves a grid stored in a text file. Two functions, namely `possible(y, x, n)` and `solve()` in it have been directly copied from [the video on the subject by Computerphile](https://youtu.be/G_UYXzGuqvM). Unlike the video, which made use of numpy, I have used my own functions to build, and print the grid beautifully. The code also throws sarcastic remarks if the user enters stupid options :-).
